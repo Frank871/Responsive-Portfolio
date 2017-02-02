@@ -48,7 +48,7 @@ h1 {
 
 h2,
 h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 
@@ -244,3 +244,76 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:980px) {
+
+ 
+ }
+
+
+@media screen and (max-width:768px) {
+
+#logo {
+
+  width:  40%;
+
+
+}
+
+#main-section {
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
+
+.sidebar {
+  float:  left;
+}
+  
+
+}
+
+
+@media screen and (max-width:640px) {
+
+  #logo {
+
+    width: 100%;
+  }
+
+header {
+  margin-top: 30px;
+  position: static;
+}
+
+nav {
+  
+  box-sizing: border-box;
+  width:  100%;
+  text-align: center;
+  padding: 15px;
+}
+
+.main-section{
+
+  margin-top: 65px;
+ 
+  
+}
+
+.sidebar {
+box-sizing: border-box;
+width: 100%;
+float: left;
+padding-left: 30px;
+display: inline-block;
+
+}
+
+}
+ 
+   
+
+
+
+
